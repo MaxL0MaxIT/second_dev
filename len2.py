@@ -21,6 +21,6 @@ while True:
     if stop == "y":
         print(f"Хорошо, завершаю работу!\n")
         sleep(1)
-        sys.exit()
+        exit()
     if stop == "n":
         print(f"Хорошо, готов к работе!\n")
